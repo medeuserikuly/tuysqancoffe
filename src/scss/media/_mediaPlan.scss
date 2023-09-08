@@ -1,0 +1,44 @@
+@media (max-width: 577px) {
+    .plan {
+        background-color: #f2f2f2;
+        padding-top: 50px;
+        // .plan__line1
+        &__line1 {
+            display: none;
+            &-m{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        // .plan__items
+        &__items {
+            display: grid;
+            justify-content: center;
+            gap: 20px;
+        }
+        // .plan__item
+        &__item {
+        }
+        // .plan__title
+        &__title {
+            font-size: 10px;
+        }
+        // .plan__text
+        &__text {
+            font-size: 54px;
+            letter-spacing: -0.05em;
+        }
+        // .plan__line2
+        &__line2 {
+            display: none;
+            &-m{
+                display: block;
+                margin: 0 auto;
+    
+            }
+        }
+    }
+    .container {
+    }
+    
+}

@@ -1,0 +1,55 @@
+<section class="forms">
+    <div class="container">
+        <div id="form" class="forms__title">
+            Оставить заявку на открытие
+            предприятия Surf Coffee® в России
+        </div>
+
+        <div class='main__form'>
+            <form class='form' action='telegram.php' method='POST'>
+                <input type='text' name='name' placeholder="ФИО" required>
+                <input type='text' name='city' placeholder="Город" required>
+                <input type='tel' name='phone' placeholder="+7 (777) 777 77 77" required>
+                <input type='email' name='email' placeholder="Email" required>
+
+                <label for="whyOpenTextarea">Почему хотите открыть Surf Coffee®?</label>
+                <textarea name="textarea" id="whyOpenTextarea" cols="" rows="4" required></textarea>
+
+                <label for="budget">На какой бюджет открытия расчитываете?</label>
+                <input name="budget" id="budget" required>
+
+                <label for="income">Какой ожидаете ежемесячный доход?</label>
+                <input name="income" id="income" required>
+
+                <label for="format">Предприятие какого формата хотелиd бы открыть?</label>
+                <input name="format" id="format" required>
+
+                <label>Источник привлекаемых средств для открытия</label>
+                <input type='text' name='investor' required>
+
+                <label>Род деятельности. Чем сейчас занимаетесь?</label>
+                <input type='text' name='job' required>
+                
+                <label>Есть ли у вас кофейня или аналогичный проект в сфере общественного питания?</label>
+                <input type='text' name='project' required>
+                
+                <label>Насколько глубоко вы готовы погружаться в процессы открытия и запуска предприятия?</label>
+                <input type='text' name='deep' required>
+                
+                <label>Насколько глубоко готовы погружаться в процессы после запуска предприятия? Планируемая роль?</label>
+                <input type='text' name='role' required>
+                
+                <label>Есть ли у вас на примете помещение для открытия?</label>
+                <input type='text' name='room' required>
+                
+                <label>Ссылка на ваш Instagram или другую соц. сеть.</label>
+                <input type='text' name='link' required>
+
+
+                <button type="submit" class="btn btn-form">Отправить</button>
+            </form>
+        </div>
+
+        <img src="@img/line/line10.svg" alt="line10" class="forms__line">
+    </div>
+</section>

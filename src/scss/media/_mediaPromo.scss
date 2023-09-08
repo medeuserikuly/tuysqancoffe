@@ -1,0 +1,39 @@
+// @media (max-width: 1440px) { 
+//     .promo {
+//         &__line {
+//             left: 252px;
+//         }
+//     }
+
+// }
+
+@media (max-width: 577px) { 
+    .promo {
+        padding-top: 90px;
+        padding-bottom: 10px;
+        // .promo__logo
+        &__logo {
+            width: 48px;
+        }
+        // .promo__text
+        &__text {
+            margin-top: 25px;
+            font-size: 10px;
+            line-height: 15px;
+        }
+        &__line {
+            display: none;
+            &-m {
+                display: block;
+                position: absolute;
+                top: -100px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    
+    
+    
+    
+}

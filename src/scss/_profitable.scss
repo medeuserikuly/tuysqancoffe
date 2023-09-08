@@ -1,0 +1,40 @@
+.profitable {
+    position: relative;
+    background-color: #f2f2f2;
+    min-height: 755px;
+    // .profitable__line
+    &__line {
+        position: absolute;
+        top: -11px;
+        // right: 370px;
+        left: 50%;
+        transform: translateX(-10%);
+        &-m {
+            display: none;
+        }
+
+    }
+    // .profitable__palm
+    &__palm {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(8%, -112%);
+        // right: 830px;
+        width: 125px;
+    }
+    // .profitable__text
+    &__text {
+        padding-top: 440px;
+        margin-right: 30px;
+        width: 358px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        float: right;
+    }
+}
+
+.peace {
+    display: none;
+}

@@ -1,0 +1,101 @@
+// body._lock {
+//     overflow: hidden;
+// }
+
+.header {
+    // position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #f2f2f2;
+    &__container {
+        // max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        // padding: 0 30px;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 70px;
+    }
+    &__logo {
+        width: 160px;
+        // position: relative;
+        // z-index: 5;
+        // caret-color: transparent;
+    }
+}
+
+.menu {
+    &__icon {
+        display: none;
+         caret-color: transparent;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        >li {
+            display: flex;
+            position: relative;
+            margin-left: 20px;
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        color: #000;
+        font-size: 16px;
+        
+    }
+
+}
+
+// body._pc .menu__list > li:hover .menu__sublist {
+//     opacity: 1;
+//     visibility: visible; 
+//     transform: translate(0, 0);
+//     pointer-events: all;
+// }
+// body._touch .menu__list > li {
+//     display: flex;
+//     align-items: center;
+// }
+// body._touch .menu__link {
+//     flex: 1 1 auto;
+// }
+// body._touch .menu__arrow {
+//     display: block;
+//     width: 0;
+//     height: 0;
+//     margin-left: 5px;
+//     transition: transform 0.3s ease 0s;
+//     border-left: 5px solid transparent;
+//     border-right: 5px solid transparent;
+//     border-top: 10px solid #fff;
+// }
+// body._touch .menu__list > li._active .menu__sublist {
+//     opacity: 1;
+//     visibility: visible; 
+//     transform: translate(0, 0);
+//     pointer-events: all;
+// }
+// body._touch .menu__list > li._active .menu__arrow {
+//     transform: rotate(-180deg);
+// }
+
+
+// Uncomment if you need to fix header
+/* .fixed__nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: white;
+    z-index: 10;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+} */

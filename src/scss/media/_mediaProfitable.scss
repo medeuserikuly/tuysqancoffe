@@ -1,0 +1,41 @@
+@media (max-width: 577px) {
+    .profitable {
+        min-height: 475px;
+        // .profitable__line
+        &__line {
+            display: none;
+            &-m {
+                display: block;
+                position: absolute;
+                top: -11px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+    
+        }
+        // .profitable__palm
+        &__palm {
+            display: none;
+        }
+        // .profitable__text
+        &__text {
+            display: block;
+            margin: 0 auto;
+            padding-top: 300px;
+            // margin-right: 0px;
+            width: 310px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 18px;
+            float: none;
+        }
+    }
+ 
+    .peace {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 180px;
+    }
+}

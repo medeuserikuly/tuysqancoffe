@@ -1,0 +1,38 @@
+.plan {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    // .plan__line1
+    &__line1 {
+        display: block;
+        margin: auto;
+        &-m{
+            display: none;
+        }
+    }
+    // .plan__items
+    &__items {
+        display: grid;
+        justify-content: center;
+        gap: 40px;
+    }
+    // .plan__item
+    &__item {
+    }
+    // .plan__title
+    &__title {
+        font-size: 16px;
+    }
+    // .plan__text
+    &__text {
+        font-size: 100px;
+        font-weight: 200;
+    }
+    // .plan__line2
+    &__line2 {
+        &-m{
+            display: none;
+        }
+    }
+}
+.container {
+}

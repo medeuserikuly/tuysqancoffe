@@ -1,0 +1,118 @@
+
+
+.pulse-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    background: #0db534;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    outline: none;
+    z-index: 1000;
+  }
+
+  .pulse-button__icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("@img/whatsapp-big.svg") center center/cover no-repeat;
+    transition: .3s;
+  }
+
+  .pulse-button__text {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font: 12px 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: .3s;
+    margin-top: 1px;
+  }
+
+  .pulse-button:hover .pulse-button__icon {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transition: .3s;
+  }
+   
+  .pulse-button:hover .pulse-button__text {
+    transition: .3s;
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+  }
+
+  .pulse-button__rings {
+    border: 1px solid #0db534;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    animation-duration: 2.0s;
+    animation-name: pulse_1;
+    animation-iteration-count: infinite;
+    z-index: -1;
+  }
+   
+  .pulse-button__rings:nth-child(2) {
+    animation-name: pulse_2;
+  }
+   
+  .pulse-button__rings:nth-child(3) {
+    animation-name: pulse_3;
+  }
+
+  @keyframes pulse_1 {
+    from {
+      opacity: 1;
+      transform: scale(0.9, 0.9);
+    }
+   
+    to {
+      opacity: 0;
+      transform: scale(1.3, 1.3);
+    }
+  }
+   
+  @keyframes pulse_2 {
+    from {
+      opacity: 1;
+      transform: scale(0.8, 0.8);
+    }
+   
+    to {
+      opacity: 0;
+      transform: scale(1.5, 1.5);
+    }
+  }
+   
+  @keyframes pulse_3 {
+    from {
+      opacity: 1;
+      transform: scale(0.8, 0.8);
+    }
+   
+    to {
+      opacity: 0;
+      transform: scale(1.7, 1.7);
+    }
+  }

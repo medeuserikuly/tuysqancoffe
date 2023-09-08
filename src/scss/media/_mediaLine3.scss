@@ -1,0 +1,13 @@
+@media (max-width: 577px) {
+    .line3 {
+        // .line3__line
+        &__line {
+            display: none;
+            &-m {
+                display: block;
+                // margin: 0 auto;
+            }
+        }
+    }
+    
+}
