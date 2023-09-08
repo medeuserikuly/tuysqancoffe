@@ -59,4 +59,10 @@
         font-size: 18px;
         font-weight: 300;
     }
+
+    select {
+        appearance: none;
+        background: url('@img/icon/down-arrow.svg') no-repeat right;
+        background-position-x: calc(100% - 8px);
+      }
 }

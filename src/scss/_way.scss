@@ -33,7 +33,9 @@
         margin-top: 10px;
         font-size: 20px;
         font-weight: 300;
-        
+        &-link {
+            color: blue;
+        }
     }
     &__number {
         width: 44px;
@@ -92,7 +94,7 @@
     }
     // .way__logo
     &__logo {
-        width: 90px;
+        width: 200px;
         position: absolute;
         bottom: 0;
         right: 43%;

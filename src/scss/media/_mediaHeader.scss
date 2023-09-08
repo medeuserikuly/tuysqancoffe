@@ -6,15 +6,16 @@
             &__phone {
                 display: none;
             }
-            &__link {
-                display: none;
-            }
+
             &__list {
                 gap: 20px;
                 >li {
                     margin-top: 15px;
                     margin-left: 0px;
                 }
+            }
+            &__link {
+                font-size: 10px;
             }
         }
         &__container {
@@ -23,7 +24,7 @@
             align-items: center;
         }
         &__logo {
-            width: 140px;
+            width: 250px;
         }
     }
     

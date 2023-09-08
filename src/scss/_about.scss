@@ -1,0 +1,20 @@
+.about {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    // .about__text
+    &__text {
+        margin-top: 20px;
+        font-size:24px;
+        font-weight: 300;
+    }
+    // .about__descr
+    &__descr {
+        margin-top: 20px;
+        font-size:24px;
+        font-weight: 300;
+        span {
+            font-weight: 400;
+        }
+    }
+}
+

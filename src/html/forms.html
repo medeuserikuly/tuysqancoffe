@@ -2,7 +2,7 @@
     <div class="container">
         <div id="form" class="forms__title">
             Оставить заявку на открытие
-            предприятия Surf Coffee® в России
+            предприятия Tuysqan Cafe
         </div>
 
         <div class='main__form'>
@@ -10,40 +10,54 @@
                 <input type='text' name='name' placeholder="ФИО" required>
                 <input type='text' name='city' placeholder="Город" required>
                 <input type='tel' name='phone' placeholder="+7 (777) 777 77 77" required>
-                <input type='email' name='email' placeholder="Email" required>
+                <input type='email' name='email' placeholder="Email">
 
-                <label for="whyOpenTextarea">Почему хотите открыть Surf Coffee®?</label>
-                <textarea name="textarea" id="whyOpenTextarea" cols="" rows="4" required></textarea>
+                <label for="whyOpenTextarea">Почему хотите открыть Tuysqan Cafe?</label>
+                <textarea name="textarea" id="whyOpenTextarea" cols="" rows="4"></textarea>
 
                 <label for="budget">На какой бюджет открытия расчитываете?</label>
-                <input name="budget" id="budget" required>
+                <select name="budget" id="budget">
+                    <option value="">Выбрать вариант из списка</option>
+                    <option value="от 10 до 17 млн тг">от 10 до 17 млн тг</option>
+                    <option value="Хочу большую кофейню. От 30 млн тг">Хочу большую кофейню. От 30 млн тг</option>
+                </select>
 
                 <label for="income">Какой ожидаете ежемесячный доход?</label>
-                <input name="income" id="income" required>
+                <select name="income" id="income">
+                    <option value="">Выбрать вариант из списка</option>
+                    <option value="от 900 000 тг">от 900 000 тг</option>
+                    <option value="от 2 000 000 тг">от 2 000 000 тг</option>
+                </select>
 
-                <label for="format">Предприятие какого формата хотелиd бы открыть?</label>
-                <input name="format" id="format" required>
+                <label for="format">Предприятие какого формата хотели бы открыть?</label>
+                <select name="format" id="format">
+                    <option value="">Выбрать вариант из списка</option>
+                    <option value="Стрит-ритейл">Стрит-ритейл - помещение с отдельным входом в жилом доме</option>
+                    <option value="ТЦ/БЦ">ТЦ/БЦ</option>
+                    <option value="Отдельно стоящее здание">Отдельно стоящее здание</option>
+                    <option value="Готов рассмотреть любой вариант">Готов рассмотреть любой вариант</option>
+                </select>
 
                 <label>Источник привлекаемых средств для открытия</label>
-                <input type='text' name='investor' required>
+                <input type='text' name='investor'>
 
                 <label>Род деятельности. Чем сейчас занимаетесь?</label>
-                <input type='text' name='job' required>
+                <input type='text' name='job'>
                 
                 <label>Есть ли у вас кофейня или аналогичный проект в сфере общественного питания?</label>
-                <input type='text' name='project' required>
+                <input type='text' name='project'>
                 
                 <label>Насколько глубоко вы готовы погружаться в процессы открытия и запуска предприятия?</label>
-                <input type='text' name='deep' required>
+                <input type='text' name='deep'>
                 
                 <label>Насколько глубоко готовы погружаться в процессы после запуска предприятия? Планируемая роль?</label>
-                <input type='text' name='role' required>
+                <input type='text' name='role'>
                 
                 <label>Есть ли у вас на примете помещение для открытия?</label>
-                <input type='text' name='room' required>
+                <input type='text' name='room'>
                 
                 <label>Ссылка на ваш Instagram или другую соц. сеть.</label>
-                <input type='text' name='link' required>
+                <input type='text' name='link'>
 
 
                 <button type="submit" class="btn btn-form">Отправить</button>

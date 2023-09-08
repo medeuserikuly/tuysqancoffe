@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const whatsapp = document.querySelector('.pulse-button');
     whatsapp.addEventListener('click', () => {
-        open("https://wa.me/77777777777");
+        open("https://wa.me/77024588753");
     });
 
     

@@ -1,7 +1,7 @@
 .profitable {
     position: relative;
     background-color: #f2f2f2;
-    min-height: 755px;
+    min-height: 650px;
     // .profitable__line
     &__line {
         position: absolute;
@@ -19,7 +19,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(8%, -112%);
+        transform: translate(8%, -80%);
         // right: 830px;
         width: 125px;
     }

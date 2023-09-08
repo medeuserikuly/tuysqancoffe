@@ -3,18 +3,19 @@
     padding-top: 80px;
     // .conditions_title
     &_title {
-        font-size: 90px;
+        font-size: 50px;
         font-weight: 200;
     }
     // .conditions__items
     &__items {
         margin-top: 50px;
         display: flex;
+        justify-content: space-between;
         gap: 50px;
     }
     // .conditions__item
     &__item {
-        width: 347px;
+        // width: 347px;
     }
     // .conditions__text
     &__text {
