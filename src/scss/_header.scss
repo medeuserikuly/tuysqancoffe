@@ -27,29 +27,40 @@
 }
 
 .menu {
-    &__icon {
-        display: none;
-         caret-color: transparent;
-    }
-    &__list {
+    &__body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        >li {
+        gap: 20px;
+        cursor: pointer;
+        a {
             display: flex;
-            position: relative;
-            margin-left: 20px;
+            align-items: center;
+            color:black;
             img {
-                margin-right: 10px;
+                margin-right: 5px;
             }
         }
     }
-    &__link {
-        display: flex;
-        align-items: center;
-        color: #000;
-        font-size: 16px;
-    }
+    // &__list {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     >li {
+    //         display: flex;
+    //         position: relative;
+    //         margin-left: 20px;
+    //         img {
+    //             margin-right: 10px;
+    //         }
+    //     }
+    // }
+    // &__link {
+    //     display: flex;
+    //     align-items: center;
+    //     color: #000;
+    //     font-size: 16px;
+    // }
 
 }
 
