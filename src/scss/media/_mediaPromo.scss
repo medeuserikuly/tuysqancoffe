@@ -1,11 +1,19 @@
-// @media (max-width: 1440px) { 
-//     .promo {
-//         &__line {
-//             left: 252px;
-//         }
-//     }
+@media (max-width: 992px) {
+}
 
-// }
+@media (max-width: 768px) {
+    .promo__line {
+        display: none;
+        &-m {
+            display: block;
+            position: absolute;
+            top: -100px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
 
 @media (max-width: 577px) { 
     .promo {

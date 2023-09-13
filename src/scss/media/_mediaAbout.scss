@@ -1,3 +1,20 @@
+@media (max-width: 1200px) {
+    .about {
+        display: block;
+        margin: 0 auto;
+        // .about__text
+        &__text {
+            font-size:20px;
+        }
+        // .about__descr
+        &__descr {
+            font-size:22px;
+            font-weight: 300;
+        }
+    }
+}
+
+
 @media (max-width: 577px) {
     .about {
         padding-bottom: 20px;

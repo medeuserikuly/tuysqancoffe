@@ -1,19 +1,21 @@
-
-
 @media (max-width: 577px) {
     .header {
         .menu {
+            &__body {
+                position: relative;
+                z-index: 2;
+            }
             &__phone {
                 display: none;
             }
 
-            &__list {
-                gap: 20px;
-                >li {
-                    margin-top: 15px;
-                    margin-left: 0px;
-                }
-            }
+            // &__list {
+            //     gap: 20px;
+            //     >li {
+            //         margin-top: 15px;
+            //         margin-left: 0px;
+            //     }
+            // }
             &__link {
                 font-size: 10px;
             }

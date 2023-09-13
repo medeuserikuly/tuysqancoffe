@@ -26,6 +26,14 @@
         font-size: 14px;
         font-weight: 300;
     }
+    &__numbers {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__phone_img {
+        margin-top: 10px;
+    }
     // .contacts__address
     &__address {
         display: flex;
@@ -37,6 +45,9 @@
         font-weight: 300;
         img {
             width: 25px;
+        }
+        &-2 {
+            margin-top: 5px;
         }
     }
 }

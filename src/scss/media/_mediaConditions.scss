@@ -1,3 +1,25 @@
+@media (max-width: 1200px) {
+    .conditions {
+        &__img {
+            grid-template-columns: 540px;
+            justify-content: center;
+            &-1 {
+                width: 540px;
+            }
+            &-2 {
+                display: none;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
 @media (max-width: 577px) {
     .conditions {
         padding-top: 40px;

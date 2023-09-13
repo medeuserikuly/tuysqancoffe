@@ -1,3 +1,59 @@
+@media (max-width: 1200px) {
+    .way {
+        &__line {
+            display: none;
+        }
+        &__palm {
+            display: none;
+        }
+        &__img {
+            // margin-top: 40px;
+            // grid-template-columns: 340px;
+            // justify-content: center;
+            // &-1 {
+            //     display: block;
+            //     width: 340px;
+            //     margin: 0 auto;
+            // }
+            &-2 {
+                display: none;
+            }
+        }
+        &__line2 {
+            display: none;
+        }
+        // .way__logo
+        &__logo {
+            display: none;
+        }
+        &__title {
+            font-size: 40px;
+            width: 100%;
+        }
+        &__subtitle {
+            max-width: 360px;
+            font-size: 25px;
+        }
+        &__img {
+            margin-top: 40px;
+            grid-template-columns: 540px;
+            justify-content: center;
+            &-1 {
+                display: block;
+                width: 540px;
+                margin: 0 auto;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
 @media (max-width: 577px) {
     .way {
         // .way__title

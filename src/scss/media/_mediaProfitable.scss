@@ -1,3 +1,35 @@
+@media (max-width: 1200px) {
+    .profitable__line {
+        transform: translateX(-35%);
+    }
+    .profitable__palm {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .profitable {
+        min-height: 220px;
+    }
+    .profitable__line, .profitable__palm {
+        display: none;
+    }
+    
+    .profitable__text {
+        padding-top: 40px;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .profitable__line-m {
+        display: block;
+    }
+}
+
+
 @media (max-width: 577px) {
     .profitable {
         min-height: 440px;

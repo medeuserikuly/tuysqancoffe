@@ -1,3 +1,18 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    .accordion {
+        // .accordion__items
+        &__items {
+            width: 540px;
+        }
+    }
+}
+
 @media (max-width: 577px) {
     .accordion {
         padding: 50px 0;    

@@ -1,3 +1,33 @@
+@media (max-width: 1200px) {
+    .plan {
+        &__line1 {
+            display: none;
+            &-m{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &__line2 {
+            display: none;
+            &-m{
+                display: block;
+                margin: 0 auto;
+    
+            }
+        }
+        &__text {
+            font-size: 64px;
+            letter-spacing: -0.05em;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
 @media (max-width: 577px) {
     .plan {
         background-color: #f2f2f2;
@@ -37,8 +67,5 @@
     
             }
         }
-    }
-    .container {
-    }
-    
+    }   
 }
