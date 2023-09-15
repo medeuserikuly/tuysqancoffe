@@ -1774,8 +1774,8 @@ ul {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(8%, -80%);
-  width: 125px;
+  transform: translate(40%, -80%);
+  width: 65px;
 }
 
 .profitable__text {
@@ -1831,8 +1831,8 @@ ul {
 .conditions__img {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: 760px 360px;
-  justify-content: space-between;
+  grid-template-columns: 760px;
+  justify-content: center;
 }
 
 .plan {
@@ -1980,7 +1980,7 @@ ul {
 }
 
 .way__palm {
-  width: 110px;
+  width: 80px;
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -1992,6 +1992,15 @@ ul {
   display: grid;
   grid-template-columns: 760px 360px;
   justify-content: space-between;
+}
+
+.way__img-1 {
+  max-width: 760px;
+  max-height: 626px;
+}
+
+.way__img-2 {
+  max-width: 352px;
 }
 
 .way__line2 {

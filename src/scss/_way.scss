@@ -59,7 +59,7 @@
     }
     // .way__palm
     &__palm {
-        width: 110px;
+        width: 80px;
         position: absolute;
         bottom: 0;
         right: 50%;
@@ -74,9 +74,12 @@
     }
     // .way__img-1
     &__img-1 {
+        max-width: 760px;
+        max-height: 626px;
     }
     // .way__img-2
     &__img-2 {
+        max-width: 352px;
     }
 
     // .way__imgs
